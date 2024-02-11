@@ -21,7 +21,7 @@ public class Main {
     public static JDA jdaBot;
     public static LogTask logTask;
     public static void main(String[] args) throws LoginException {
-        jdaBot = JDABuilder.createDefault("MTE2MDEzOTUwNDY1NzYzMzMwMQ.GyMN93.ehHStSq6tlQIklTnOFLYRNxbhwOJPwK8Fwvblg")
+        jdaBot = JDABuilder.createDefault("API_KEY_BOT")
                 .addEventListeners(new guildReady())
                 .setChunkingFilter(ChunkingFilter.ALL)
                 .setMemberCachePolicy(MemberCachePolicy.ALL)
